@@ -45,6 +45,9 @@ La principal idea detras de la integridad de los datos o de la informacion es de
 - Personas y sus acciones
 
 ### Integridad de Datos
-Asegurar que los datos en si no hayan sido alterados por un actor no autorizado. Principalmente, los datos necesitan ser protegidos mientras esten en los sistemas, como cuando estan siendo procesados y de esta manera evitar que sean modificados inapropiadamente, que se generen errores o que haya perdida de informacion. Como asi tambien velar su integridad al momento de ser registrada, usada y mantenida de forma que se asegure que este completa.
+Que un dato sea integro es la garantia que este mismo no haya sido alterado de una forma no autorizada. Mientras los datos estan siendo almacenados o esten en trasito, se deben tomar medidas de seguridad que los protejan de modificaciones, errores o que haya perdida de informacion. Esto tambien incluye el instante en el que se esta registrando la informacion, asegurando que los datos sean consistentes e integros.
 
-Con lo anterior, la informacion debe ser consistente y precisa para cuando sea requerida por algun actor. 
+De esta manera, a traves de la consistencia, los datos deben ser los mismos en todos los sistemas en los que se esten usando o almacenando manteniendo su forma, contenido y su significado.
+
+### Integridad del sistema
+Se refiere al mantenimiento de una configuracion confiable y su funcionamiento esperado a medida que el sistema procesa la informacion. Para esto se establece el **Estado**, que no es mas que la condicion actual del sistema. 
