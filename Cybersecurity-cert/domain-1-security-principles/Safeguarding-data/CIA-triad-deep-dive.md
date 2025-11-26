@@ -1,7 +1,7 @@
 # Triada CIA - Analisis en profundidad
 ### Proteccion de datos (Safeguarding Data)
 
-## Confidencialidad
+## Confidencialidad (C)
 Este parametro es uno que lleva tiempo balancear cuando muchos usuarios ingresan al sistema. No todos los usuarios que ingresan al sistema, sean invitados o clientes, pueden ser catalogados como seguros dado que no se conoce si los equipos desde los que estan accediendo al sistema poseen algun tipo de riesgo asociado a ellos. Es por esto que los especialistas deben proteger los datos, asegurando que la informacion este disponible solo para aquellos usuarios que tengan un acceso autorizado.
 
 Para entender de mejor manera la *confidencialidad*, debemos entender varios terminos asociados a la misma.
@@ -38,7 +38,7 @@ Apellido = Responder pregunta de seguridad
 
 Como vimos en la seccion anterior, la **sensibilidad** es un topico que podemos definir como la importancia que le asigna a la informacion el dueño de la misma y por ende impacta en el daño que puede realizar a una organizacion o individuo. 
 
-## Integridad
+## Integridad (I)
 La principal idea detras de la integridad de los datos o de la informacion es determinar que tan **integros** estan, en otras palabras si estan completos, consistentes y correctos. Este concepto aplica para:
 - Sistemas y procesos relevantes en la operacion de las organizaciones
 - Organizaciones
@@ -50,4 +50,8 @@ Que un dato sea integro es la garantia que este mismo no haya sido alterado de u
 De esta manera, a traves de la consistencia, los datos deben ser los mismos en todos los sistemas en los que se esten usando o almacenando manteniendo su forma, contenido y su significado.
 
 ### Integridad del sistema
-Se refiere al mantenimiento de una configuracion confiable y su funcionamiento esperado a medida que el sistema procesa la informacion. Para esto se establece el **Estado**, que no es mas que la condicion actual del sistema. 
+Se refiere al mantenimiento de una configuracion confiable y su funcionamiento esperado a medida que el sistema procesa la informacion. Para esto se establece el **State**, que es la habilidad de documentar y entender cual es el estado actual de los datos o del sistema en punto especifico, con lo cual se crea una **Baseline**. Con esta base, se pueden realizar comparaciones entre un **state** y su **baseline**, en donde si la comparacion no muestra cambios y tiene un match perfecto, los datos se mantienen integros; por otra parte, si los datos al ser comparados no presentan un match, los datos pueden haber sido comprometidos y por ende ya no son integros.
+
+## Disponibilidad (A)
+
+
